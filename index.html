@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -23,8 +23,8 @@
     </header>
     <main>
         <section class="restaurant-app">
-            <h2 class="restaurant-title">Restaurant app</h2>
-            <p class="restaurant-info">Why stay hungry when you can order form Eats </p>
+            <h2 class="restaurant-info">Restaurant app</h2>
+            <p class="restaurant-title">Why stay hungry when you can order form Eats </p>
             <p class="restaurant-description">Order in exchange for hunger</p>
             <ul class="restaurant-app-list">
                 <li class="restaurant-app-item"><button type="button" class="delivery">Delivery</button></li>
@@ -32,27 +32,35 @@
             </ul>
         </section>
         <section class="app-works">
-            <img src="./images/telephone-1.jpg" alt="telephone-with-password" class="app-works-img">
-            <h3 class="app-works-title">How the app works</h3>
-            <h3 class="creating-account">Creat an account</h2>
-            <h2 class="creating-account-info">Creat/login to an existing account to get started</h2>
-            <h4 class="creating-accoint-description">An account is creating with your email and a desired password</h4>
-            <!--Я не впевнений але гадаю зо треба було дві секції зробити-->
-            <img src="./images/telephone2.jpg" alt="telephone-with-menu" class="app-works-menu">
-            <h3 class="app-work-title">Explore varieties</h3>
-            <h3 class="shop">Shop for your favorites meal as e dey hot.</h3>
-            <h4 class="shop-info">Shop for your favorite meals or drinks and enjoy while doing it.</h4>
-        </section>
-        <section class="order-now">
-            <h2 class="order-now-title">Order now</h2>
-            <p class="order-now-info">Availble on your favorite store. Start your premium experince now</p>
-            <ul class="order-now-list">
-                <li class="order-now-item"><button class="order-now-btn">Playstore</button></li>
-                <li class="order-now-item"><button class="order-now-btn">App store</button></li>
+            
+            <ul class="list-app-works">
+                <li class="item-app-works">
+                    <h2 class="app-works-title">How the app works</h2>
+                    <img src="./images/telephone-1.jpg" alt="telephone-with-password" class="app-works-img">
+                    <h3 class="creating-account">Creat an account</h2>
+                    <p class="creating-account-info">Creat/login to an existing account to get started</p>
+                    <p class="creating-accoint-description">An account is creating with your email and a desired password</p>
+                </li>
+                <li class="item-app-works">
+                    <img src="./images/telephone2.jpg" alt="telephone-with-menu" class="app-works-menu">
+                    <h3 class="app-work-title">Explore varieties</h3>
+                    <p class="shop">Shop for your favorites meal as e dey hot.</p>
+                    <p class="shop-info">Shop for your favorite meals or drinks and enjoy while doing it.</p>
+                </li>
             </ul>
-        </section>
+            
+            
+        </section>            
+    </main>
+    <footer class="footer"> 
+        <h2 class="order-now-title">Order now</h2>
+        <p class="order-now-info">Availble on your favorite store. Start your premium experince now</p>
+        <ul class="order-now-list">
+            <li class="order-now-item"><button class="order-now-btn">Playstore</button></li>
+            <li class="order-now-item"><button class="order-now-btn">App store</button></li>
+        </ul>
         <p class="logo">Eats Restaurant</p>
         <p class="copywright"><a href="#" class="copywrite-link">Copywright 2020 Bella Onoje.com</a></p>
-    </main>
+    </footer>
 </body>
 </html>
