@@ -1,66 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eats</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eats</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap"
+    rel="stylesheet" />
 </head>
+
 <body>
-    <header class="header">
-        <p class="logo">Eats restaurant</p>
-        <nav class="nav">
-            <ul class="nav-list list">
-                <li class="nav-item"><a href="#" class="nav-link link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link">Product</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link">Faq</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link">Conatct</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="restaurant-app">
-            <h2 class="restaurant-title">Restaurant app</h2>
-            <p class="restaurant-info">Why stay hungry when you can order form Eats </p>
-            <p class="restaurant-description">Order in exchange for hunger</p>
-            <ul class="restaurant-app-list list">
-                <li class="restaurant-app-item"><button type="button" class="restaurant-app-btn">Delivery</button></li>
-                <li class="restaurant-app-item"><button type="button" class="restaurant-app-btn">Menu</button></li>
-            </ul>
-        </section>
-        <section class="app-works">
-            
-            <ul class="list-app-works list">
-                <li class="item-app-works">
-                    <h2 class="app-works-title">How the app works</h2>
-                    <img src="./images/telephone-1.jpg" alt="telephone-with-password" class="app-works-img">
-                    <h3 class="creating-account">Creat an account</h2>
-                    <p class="creating-account-info">Creat/login to an existing account to get started</p>
-                    <p class="creating-account-description">An account is creating with your email and a desired password</p>
-                </li>
-                <li class="item-app-works">
-                    <img src="./images/telephone2.jpg" alt="telephone-with-menu" class="app-works-menu">
-                    <h3 class="app-work-title">Explore varieties</h3>
-                    <p class="shop">Shop for your favorites meal as e dey hot.</p>
-                    <p class="shop-info">Shop for your favorite meals or drinks and enjoy while doing it.</p>
-                </li>
-            </ul>
-            
-            
-        </section>            
-    </main>
-    <footer class="footer"> 
-        <h2 class="order-now-title">Order now</h2>
-        <p class="order-now-info">Availble on your favorite store. Start your premium experince now</p>
-        <ul class="order-now-list list">
-            <li class="order-now-item"><button class="order-now-btn">Playstore</button></li>
-            <li class="order-now-item"><button class="order-now-btn">App store</button></li>
+  <header class="header">
+    <div class="container">
+      <p class="logo">Eats restaurant</p>
+      <nav class="nav">
+        <ul class="nav-list list">
+          <li class="nav-item"><a href="#" class="nav-link link">Home</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link">Product</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link link">Faq</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link">Conatct</a>
+          </li>
         </ul>
-        <p class="logo">Eats Restaurant</p>
-        <p class="copywright"><a href="#" class="copyright-link link">Copywright 2020 Bella Onoje.com</a></p>
-    </footer>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="restaurant-app">
+      <div class="container">
+        <h2 class="restaurant-title">Restaurant app</h2>
+        <p class="restaurant-info">
+          Why stay hungry when you can order form Eats
+        </p>
+        <p class="restaurant-description">Order in exchange for hunger</p>
+        <ul class="restaurant-app-list list">
+          <li class="restaurant-app-item">
+            <button type="button" class="restaurant-app-btn">Delivery</button>
+          </li>
+          <li class="restaurant-app-item">
+            <button type="button" class="restaurant-app-btn">Menu</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="app-works">
+      <div class="container">
+        <ul class="list-app-works list">
+          <li class="item-app-works">
+            <h2 class="app-works-title">How the app works</h2>
+            <img src="./images/telephone-1.jpg" alt="telephone-with-password" class="app-works-img" />
+            <h2 class="creating-account">Creat an account</h2>
+            <p class="creating-account-info">
+              Creat/login to an existing account to get started
+            </p>
+            <p class="creating-account-description">
+              An account is creating with your email and a desired password
+            </p>
+          </li>
+          <li class="item-app-works">
+            <img src="./images/telephone2.jpg" alt="telephone-with-menu" class="app-works-menu" />
+            <h3 class="app-work-title">Explore varieties</h3>
+            <p class="shop">Shop for your favorites meal as e dey hot.</p>
+            <p class="shop-info">
+              Shop for your favorite meals or drinks and enjoy while doing it.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <h2 class="order-now-title">Order now</h2>
+      <p class="order-now-info">
+        Availble on your favorite store. Start your premium experince now
+      </p>
+      <ul class="order-now-list list">
+        <li class="order-now-item">
+          <button class="order-now-btn">Playstore</button>
+        </li>
+        <li class="order-now-item">
+          <button class="order-now-btn">App store</button>
+        </li>
+      </ul>
+      <p class="logo">Eats Restaurant</p>
+      <p class="copywright">
+        <a href="#" class="copyright-link link">Copywright 2020 Bella Onoje.com</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

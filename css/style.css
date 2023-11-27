@@ -44,6 +44,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container {
+  width: 1469px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .nav-link {
   color: var(--add-color);
   font-weight: 600;
