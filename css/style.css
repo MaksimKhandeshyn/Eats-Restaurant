@@ -49,6 +49,27 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+/*The start of header position*/
+.container-position {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item:first-child {
+  margin-left: 465px;
+  margin-right: 114px;
+}
+.nav-item+.nav-item {
+  margin-right: 114px;
+}
+.nav-item{
+  margin-top: 54px;
+}
+/*The end*/
+.nav-link:focus, .nav-link:hover{
+  color: var(--accent-color);
+}
 .nav-link {
   color: var(--add-color);
   font-weight: 600;
@@ -61,6 +82,7 @@ img {
   text-align: center;
   line-height: 36px;
   letter-spacing: 0.1px;
+  padding-top: 80px;
 }
 .restaurant-info {
   /* color: #FFF; */
@@ -71,6 +93,7 @@ img {
   font-weight: 700;
   line-height: 80px;
   letter-spacing: 0.2px;
+  padding-top: 10px;
 }
 .restaurant-description {
   /*тоже самое*/
@@ -79,6 +102,11 @@ img {
   font-size: 24px;
   line-height: 38px; /* 158.333% */
   letter-spacing: 0.2px;
+  padding-top: 14px;
+}
+.restaurant-app-list {
+  display: flex;
+  justify-content: center;
 }
 .restaurant-app-btn {
   font-size: 24px;
@@ -87,17 +115,52 @@ img {
   letter-spacing: 0.1px;
   border-radius: 30px;
   border-color: #fff;
+  margin-right: 67px;
+  margin-top: 54px;
+  padding: 16px 73px 16px 58px;
 }
 .restaurant-app-btn:hover {
   background: var(--accent-color);
   color: #fff;
 }
+.list-app-works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .app-works-title {
   font-family: Poppins;
   font-size: 44px;
   font-weight: 600;
   line-height: 36px; /* 81.818% */
   letter-spacing: 0.1px;
+  text-align: center;
+  margin-top: 93px;
+}
+/*The start of main section`s position*/
+.app-work-description {
+  display: flex;
+}
+.info-position {
+  display: flex;
+  flex-direction: column;
+}
+.instruction {
+  margin-left: 287px;
+  margin-top: 17px;
+}
+.instruction:first-child {
+  margin-top: 183px;
+}
+.explore-position {
+  margin-right: 356px;
+  margin-top: 27px;
+}
+.explore-position:first-child {
+  margin-top: 134px;
+}
+.shop-info {
+  margin-top: 27px;
 }
 .creating-account,
 .app-work-title {
@@ -107,6 +170,11 @@ img {
   line-height: 36px; /* 150% */
   letter-spacing: 0.1px;
 }
+.varietes-description {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/*The end of main section`s position*/
 .creating-account-info,
 .shop {
   color: var(--add-color);
@@ -122,13 +190,14 @@ img {
   line-height: 38px; /* 158.333% */
   letter-spacing: 0.2px;
 }
-/*По скольку футер тоже с картинкой на заднем фоне цвет текста поставлю по дефолту*/
+/*Footer*/
 .order-now-title {
   /* color: var(--Light-text, #fff); */
   text-align: center;
   font-size: 40px;
   line-height: 57px; /* 142.5% */
   letter-spacing: 0.2px;
+  margin-top: 150px;
 }
 .order-now-info {
   /* color: #fff; */
@@ -137,6 +206,10 @@ img {
   line-height: 38px; /* 158.333% */
   letter-spacing: 0.2px;
 }
+.order-now-list {
+  display: flex;
+  justify-content: center;
+}
 .order-now-btn {
   font-size: 24px;
   font-weight: 700;
@@ -144,10 +217,17 @@ img {
   letter-spacing: 0.1px;
   border-radius: 10px;
   border-color: #fff;
+  padding: 18px 31px;
+  margin-right: 16px;
+  margin-bottom: 133px;
 }
 .order-now-btn:hover {
   background: var(--accent-color);
   color: #fff;
+}
+.copyright {
+  display: flex;
+  justify-content: end;
 }
 .copyright-link {
   color: var(--text);
